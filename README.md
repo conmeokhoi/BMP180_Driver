@@ -74,3 +74,20 @@ If it show as picture, mean modules is working.
 
 ![image](https://github.com/user-attachments/assets/6daaeebf-730a-4ac7-88a3-8eba9a0f07e1)
 
+
+# 4. Remove the driver 
+
+To remove this driver, type:
+```bash
+sudo sudo rmmod bmp180_driver
+make clean
+```
+![image](https://github.com/user-attachments/assets/6fb3ff38-4a63-45b9-b0b8-c54cefbca00b)
+
+Driver removed.
+
+## Author 
+
+Nguyen Huynh Khoi 22146024
+
+ Huynh Hai Dang   22146010
