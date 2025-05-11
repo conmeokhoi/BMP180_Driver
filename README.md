@@ -2,7 +2,7 @@
 Bosch BMP180 Sensor Driver for Raspberry Pi 3b+ | Measure Temperature in C & Pressure in Pa
 
 # HOW TO USE THIS DRIVER 
-1.Wiring: Make sure you've connected your BMP180 correctly to :
+# 1.Wiring,make sure you've connected your BMP180 correctly to :
 
 VCC ----> 3.3V power (Pin 1)|
 GND ----> ground (Pin 6)
