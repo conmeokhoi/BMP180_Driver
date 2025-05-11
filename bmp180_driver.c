@@ -162,7 +162,7 @@ static int bmp180_read_data(struct i2c_client *client)
     // Read uncompensated temperature
     UT = bmp180_read_uncompensated_temperature(client);
     if (UT < 0) {
-        return UT;m nộp tất cả file lên github và gửi đường link cho thầy qua folder tạo sẵn trên classroom.
+        return UT;
     }
 
     // Read uncompensated pressure
