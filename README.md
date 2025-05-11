@@ -32,7 +32,7 @@ sudo apt-get install device-tree-compiler
 ```
 Compile the overlay file:
 ```bash
-dtc -@ -I dts -O dtb -o bmp180.dtbo bmp180-overlay.dts
+dtc -@ -I dts -O dtb -o bmp180.dtbo bmp180_overlay.dts
 ```
 Move the compiled overlay to the overlays directory:
 ```bash
