@@ -18,14 +18,14 @@ sudo ./bmp180_use
 
 If you do it correctly, the result will show as under:
 
+![image](https://github.com/user-attachments/assets/cfa70b3e-d11a-46b1-b289-543694bf2ec4)
 
 
-
-
-
-
-
-
+# To remove the code, type
+```
+sudo rmmod bmp180_driver_userspace
+make clean
+```
 
 # Author 
 Nguyen Huynh Khoi 22146024
