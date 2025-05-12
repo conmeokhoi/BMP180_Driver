@@ -1,5 +1,5 @@
 # BMP180_Driver
-Bosch BMP180 Sensor Driver for Raspberry Pi 3b+ | Measure Temperature in C & Pressure in Pa
+Bosch BMP180 Sensor Driver for Raspberry Pi 3b+ | Measure Temperature in C & Pressure in Pa | Kernel - Space Using
 
 # HOW TO USE THIS DRIVER 
 # 1.Wiring,make sure you've connected your BMP180 correctly to :
@@ -95,20 +95,4 @@ Nguyen Huynh Khoi 22146024
  ## Video demo code
  >https://youtu.be/AksHJeWDkb0
 
-# ADDITIONAL: USE ON USER SPACE
-
-In subfolder: User_Space are file for using this device on user space
-
-## 1.
-```bash
-make
-sudo insmod bmp180_driver_userspace.c
-```
-
-## 2.
-```bash
-gcc bmp180_use.c -o bmp180
-sudo ./bmp180
-```
-Result will show on terminal
 
