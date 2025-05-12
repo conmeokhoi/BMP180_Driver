@@ -86,6 +86,7 @@ make clean
 
 Driver removed.
 
+## If you want to use in user-space, acess sub-folder "User_space"
 ## Author 
 
 Nguyen Huynh Khoi 22146024
