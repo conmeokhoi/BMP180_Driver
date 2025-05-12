@@ -94,3 +94,21 @@ Nguyen Huynh Khoi 22146024
 
  ## Video demo code
  >https://youtu.be/AksHJeWDkb0
+
+# ADDITIONAL: USE ON USER SPACE
+
+In subfolder: User_Space are file for using this device on user space
+
+## 1.
+```bash
+make
+sudo insmod bmp180_driver_userspace.c
+```
+
+## 2.
+```bash
+gcc bmp180_use.c -o bmp180
+sudo ./bmp180
+```
+Result will show on terminal
+
